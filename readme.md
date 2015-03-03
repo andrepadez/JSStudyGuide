@@ -153,7 +153,7 @@ function outer() {
 
 ````JavaScript
 function outer() {
-	var name = "Bob';
+	var name = "Bob";
 	function inner() {
 		Alert(name);    // 'Bob'
 	}
