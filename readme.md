@@ -118,7 +118,7 @@ Delete another_stooge.nickname
 	- Which is linked to Object.Prototype
 - Two additional properties:
 	- Function's context (this)
-	- Code that implement's the function's behavior (arguments)
+	- Code that implements the function's behavior (arguments)
 - Also created w/ a prototype  property
 - Independent of an object
 - If a value is a function, we consider it a method
