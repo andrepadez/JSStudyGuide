@@ -178,7 +178,7 @@ something();     // 'Bob'
 var myObject = {
 	value: 0,
 	increment: function ( inc ) {
-		this.value += typeof inc === 'number' ? Inc : 1;
+		this.value += typeof inc === 'number' ? inc : 1;
 	}
 };
 
