@@ -22,12 +22,14 @@
 
 ````JavaScript
 // Returns undefined. No warning
-return { 
-         status: true
-     };
+return 
+{
+    status: true
+};
+
 //  can be avoided by moving the bracket to the top line
-   return {
-         status: true
+return {
+    status: true
 };
 ````
 - Reserved Words
