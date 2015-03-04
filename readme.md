@@ -118,7 +118,7 @@ Delete another_stooge.nickname
 	- Which is linked to Object.Prototype
 - Two additional properties:
 	- Function's context (this)
-	- Code that implement's the function's behavior (arguments)
+	- Code that implements the function's behavior (arguments)
 - Also created w/ a prototype  property
 - Independent of an object
 - If a value is a function, we consider it a method
@@ -153,7 +153,7 @@ function outer() {
 
 ````JavaScript
 function outer() {
-	var name = "Bob';
+	var name = "Bob";
 	function inner() {
 		Alert(name);    // 'Bob'
 	}
@@ -178,7 +178,7 @@ something();     // 'Bob'
 var myObject = {
 	value: 0,
 	increment: function ( inc ) {
-		this.value += typeof inc === 'number' ? Inc : 1;
+		this.value += typeof inc === 'number' ? inc : 1;
 	}
 };
 
