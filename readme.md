@@ -385,7 +385,7 @@ Private:
 
 ````JavaScript
 function Constructor(…){
-	var = this
+	var self = this;
 	var membername = value;
 	function membername(…) {…}
 }
