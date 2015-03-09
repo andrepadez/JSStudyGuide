@@ -585,7 +585,7 @@ var html = ['aaa', 'bbb', 'ccc', ...].join('');
 // the function's *result* and not the function itself.
 
 var counter = (function(){
-	var i = 0;==
+	var i = 0;
 
 	return {
 		get: function(){
