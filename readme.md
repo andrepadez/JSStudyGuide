@@ -627,5 +627,16 @@ function foo() {
 	args[i] = arguments[i];
    }  // ...
 }
+
+//or, to simplify and give some examples:
+function bar() {
+   var args = Array.prototype.slice.call(arguments);
+   
+   //and you can do awesome stuff with it:
+   args.forEach(function(arg){ ... } );
+   args.reduce(function(arg){ ... } );
+   args.map(function(arg){ ... } );
+   someOtherFunction.apply(this, args);
+}
 ````
 Source: http://stackoverflow.com/questions/6396046/unlimited-arguments-in-a-javascript-function
